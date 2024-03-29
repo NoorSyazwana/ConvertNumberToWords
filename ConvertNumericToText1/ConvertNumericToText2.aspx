@@ -24,13 +24,16 @@
                     <tr>
                         <td class="auto-style1"><asp:Label ID="lblNumber" runat="server">Enter a Number :</asp:Label></td>
                         <td>
-                            <asp:TextBox ID="txtNumber" runat="server" style="margin-left: 0px" Width="250px" Font-Size="Medium"></asp:TextBox>&nbsp;
-                            <asp:Button ID="btnConvert" runat="server" Text="Convert" OnClick="btnConvert_Click" BackColor="#007BFF" Font-Size="Medium" />
+                            <asp:TextBox ID="txtNumber" runat="server" style="margin-left: 0px" Width="250px" Font-Size="Medium"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td><asp:Label ID="lblErrorMsg" runat="server" ForeColor="Red" Visible="false"></asp:Label></td>
+                        <td style="text-align:center">
+                            <asp:Button ID="btnConvert" runat="server" Text="Convert" OnClick="btnConvert_Click" BackColor="#007BFF" Font-Size="Medium" /><br />
+                            <asp:Label ID="lblErrorMsg" runat="server" ForeColor="Red" Visible="false"></asp:Label>
+
+                        </td>
                     </tr>
                     <tr><td colspan="2">&nbsp;</td></tr>
                     <tr>
